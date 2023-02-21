@@ -1,7 +1,7 @@
 
 services:
-  - type: web
-    name: mysite
+  - name: mysite
+    type: web
     plan: starter
     env: python
     buildCommand: "./build.sh"
