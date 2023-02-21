@@ -2,6 +2,7 @@
 services:
   - type: web
     name: mysite
+    plan: starter
     env: python
     buildCommand: "./build.sh"
     startCommand: "gunicorn portafolio.wsgi:application"
